@@ -8,11 +8,7 @@ const AboutMe = () => {
     <div className="about-me my-4 py-5 d-flex">
       <Row>
         <Col className="pr-5">
-          <img
-            className="about-image"
-            src="./image-homepage-profile.jpg"
-            alt="profile"
-          />
+          <img className="about-image" src="./profile.jpg" alt="profile" />
         </Col>
         <Col className="text-column px-5 mx-5 d-flex flex-column justify-content-between">
           <Row>
@@ -24,15 +20,17 @@ const AboutMe = () => {
           </Row>
           <Row>
             <p>
-              I’m a junior front-end developer looking for a new role in an
-              exciting company. I focus on writing accessible HTML, using modern
-              CSS practices and writing clean JavaScript. When writing
-              JavaScript code, I mostly use React, but I can adapt to whatever
-              tools are required. I’m based in London, UK, but I’m happy working
-              remotely and have experience in remote teams. When I’m not coding,
-              you’ll find me outdoors. I love being out in nature whether that’s
-              going for a walk, run or cycling. I’d love you to check out my
-              work.
+              I’m a software engineer looking for a junior role at a company
+              that's looking to make a positive difference in the world. I focus
+              on writing accessible HTML, using modern CSS practices and writing
+              clean JavaScript. When it comes to front end technologies, I'm
+              well versed in React, but I can adapt to whatever tools are
+              required. As far as the back end goes, I have experience with
+              Node.js, Express, and PostgreSQL. I’m currently based in Toronto,
+              ON, but I’m happiest working remotely and have experience in
+              remote teams. When I’m not coding, you’ll find me taking photos
+              and travelling. I love art in all its forms, but particularly in
+              print or on film. I’d love for you to check out my work.
             </p>
           </Row>
           <Row>

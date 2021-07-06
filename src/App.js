@@ -4,20 +4,25 @@ import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import AboutMe from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Container>
-      <header>
-        <Navigation />
-      </header>
-      <body>
-        <Hero />
-        <AboutMe />
-        <ContactMe />
-      </body>
-      <footer>{/* <Footer /> */}</footer>
-    </Container>
+    <>
+      <Container>
+        <header>
+          <Navigation />
+        </header>
+        <main>
+          <Hero />
+          <AboutMe />
+          <ContactMe />
+        </main>
+      </Container>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
 
