@@ -1,13 +1,16 @@
 import "./App.scss";
-import NavBar from "./components/NavBar";
+import Container from "react-bootstrap/Container";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <NavBar />
+    <Container>
+      <header>
+        <Navigation />
       </header>
-    </div>
+      <body>Hey Now</body>
+      <footer>{/* <Footer /> */}</footer>
+    </Container>
   );
 }
 
