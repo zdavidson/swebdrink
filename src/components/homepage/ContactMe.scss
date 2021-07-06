@@ -3,6 +3,10 @@
     font-size: 2.5rem;
     font-weight: 600;
     width: 40%;
+
+    @media only screen and (max-width: 600px) {
+      width: 100%;
+    }
   }
 
   a {
@@ -13,10 +17,18 @@
     padding: 1rem 2.5rem;
     font-weight: 600;
     text-transform: uppercase;
+
+    @media only screen and (max-width: 600px) {
+      width: 50%;
+    }
   }
 }
 
 .line-contact {
   border: 1px solid white;
   width: 60%;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }

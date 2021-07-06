@@ -4,7 +4,7 @@ import "./Navigation.scss";
 
 const Navigation = () => {
   return (
-    <NavBar className="py-4">
+    <NavBar className="py-4 navigation">
       <NavBar.Brand href="#home">
         <img src="./logo.svg" alt="site-logo" />
       </NavBar.Brand>

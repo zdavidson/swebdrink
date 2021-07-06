@@ -4,3 +4,9 @@
   letter-spacing: 0.06rem;
   text-transform: uppercase;
 }
+
+.navigation {
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
+}

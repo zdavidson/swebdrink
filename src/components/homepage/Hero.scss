@@ -6,6 +6,11 @@
   background-repeat: no-repeat;
 
   align-items: flex-end;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+    background-image: none;
+  }
 }
 
 .text-container {
@@ -28,5 +33,9 @@
     text-transform: uppercase;
 
     padding: 1rem 3rem;
+  }
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
   }
 }

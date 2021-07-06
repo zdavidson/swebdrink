@@ -1,5 +1,10 @@
 .about-image {
   height: 600px;
+
+  @media only screen and (max-width: 600px) {
+    height: auto;
+    width: 95vw;
+  }
 }
 
 .text-column {
@@ -23,11 +28,19 @@
     font-weight: 600;
     text-transform: uppercase;
   }
+
+  @media only screen and (max-width: 600px) {
+    padding-top: 1rem;
+  }
 }
 
 .line {
   border: 1px solid rgba(211, 211, 211, 0.308);
   width: 100%;
+
+  @media only screen and (max-width: 600px) {
+    display: none;
+  }
 }
 
 .end {
