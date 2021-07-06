@@ -20,9 +20,9 @@ const AboutMe = () => {
           </Row>
           <Row>
             <p>
-              I’m a software engineer looking for a junior role at a company
-              that's looking to make a positive difference in the world. I focus
-              on writing accessible HTML, using modern CSS practices and writing
+              I’m a software engineer looking for a role at a company that's
+              looking to make a positive difference in the world. I focus on
+              writing accessible HTML, using modern CSS practices and writing
               clean JavaScript. When it comes to front end technologies, I'm
               well versed in React, but I can adapt to whatever tools are
               required. As far as the back end goes, I have experience with
