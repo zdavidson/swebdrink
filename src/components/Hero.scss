@@ -1,0 +1,32 @@
+.hero {
+  background-image: url("../images/image-homepage-hero.jpg");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  align-items: flex-end;
+}
+
+.text-container {
+  width: 50%;
+  background-color: #fafafa;
+
+  h2 {
+    font-size: 2.6rem;
+    font-weight: 700;
+  }
+
+  button {
+    background-color: #203a4c;
+    border-radius: 0;
+    border: 0;
+
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.06rem;
+    text-transform: uppercase;
+
+    padding: 1rem 3rem;
+  }
+}

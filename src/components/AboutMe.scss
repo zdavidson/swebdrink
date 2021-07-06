@@ -1,0 +1,32 @@
+.about-image {
+  height: 100%;
+}
+
+.text-column {
+  hr {
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    color: #747475;
+    line-height: 1.9;
+  }
+
+  button {
+    border-radius: 0;
+    padding: 1rem 3rem;
+  }
+}
+
+.line {
+  border: 1px solid rgba(211, 211, 211, 0.575);
+  width: 100%;
+}
+
+.end {
+  justify-self: end;
+}

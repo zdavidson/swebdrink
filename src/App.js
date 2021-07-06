@@ -1,6 +1,9 @@
 import "./App.scss";
 import Container from "react-bootstrap/Container";
 import Navigation from "./components/Navigation";
+import Hero from "./components/Hero";
+import AboutMe from "./components/AboutMe";
+import ContactMe from "./components/ContactMe";
 
 function App() {
   return (
@@ -8,7 +11,11 @@ function App() {
       <header>
         <Navigation />
       </header>
-      <body>Hey Now</body>
+      <body>
+        <Hero />
+        <AboutMe />
+        <ContactMe />
+      </body>
       <footer>{/* <Footer /> */}</footer>
     </Container>
   );
