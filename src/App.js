@@ -1,9 +1,9 @@
 import "./App.scss";
 import Container from "react-bootstrap/Container";
 import Navigation from "./components/Navigation";
-import Hero from "./components/Hero";
-import AboutMe from "./components/AboutMe";
-import ContactMe from "./components/ContactMe";
+import Hero from "./components/homepage/Hero";
+import AboutMe from "./components/homepage/AboutMe";
+import ContactMe from "./components/homepage/ContactMe";
 import Footer from "./components/Footer";
 
 function App() {
