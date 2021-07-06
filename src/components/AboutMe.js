@@ -34,7 +34,12 @@ const AboutMe = () => {
             </p>
           </Row>
           <Row>
-            <Button variant="outline-secondary">Go To Portfolio</Button>
+            <Button
+              variant="outline-secondary"
+              href="https://github.com/zdavidson"
+            >
+              Go To Portfolio
+            </Button>
           </Row>
           <Row>
             <div className="line end"></div>

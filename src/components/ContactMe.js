@@ -8,7 +8,12 @@ const ContactMe = () => {
       <div className="line-contact px-4 mx-4">
         <hr></hr>
       </div>
-      <Button variant="outline-secondary">Contact Me</Button>
+      <Button
+        variant="outline-secondary"
+        href="mailto:zoe.a.h.davidson@gmail.com"
+      >
+        Contact Me
+      </Button>
     </div>
   );
 };

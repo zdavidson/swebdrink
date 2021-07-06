@@ -12,10 +12,16 @@ const Navigation = () => {
         <Nav.Link className="mr-4 header-link" href="#home">
           Home
         </Nav.Link>
-        <Nav.Link className="mr-4 header-link" href="#portfolio">
+        <Nav.Link
+          className="mr-4 header-link"
+          href="https://github.com/zdavidson"
+        >
           Portfolio
         </Nav.Link>
-        <Nav.Link className="header-link" href="#contact">
+        <Nav.Link
+          className="header-link"
+          href="mailto:zoe.a.h.davidson@gmail.com"
+        >
           Contact Me
         </Nav.Link>
       </Nav>
