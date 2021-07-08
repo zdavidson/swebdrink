@@ -8,10 +8,24 @@
   background-repeat: no-repeat;
   align-items: flex-end;
 
+  .line {
+    border: 1px solid rgba(211, 211, 211, 0.308);
+    width: 100%;
+  }
+
   // Small Screens
   @media only screen and (max-width: 600px) {
     background-image: none;
     padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+
+    .section-seperator {
+      height: 1px;
+      width: 80vw;
+      margin-top: 4rem;
+      margin-bottom: 3rem;
+    }
   }
 
   // Medium Screens
@@ -22,6 +36,10 @@
   @media screen and (min-width: 960px) {
     margin: 2rem 0;
     height: 65vh;
+
+    .section-seperator {
+      width: 0;
+    }
   }
 }
 
@@ -74,18 +92,4 @@
       padding-right: 1rem;
     }
   }
-}
-
-// General Styles
-
-// Small Screens
-@media screen and (max-width: 600px) {
-}
-
-// Medium Screens
-@media screen and (min-width: 600px) and (max-width: 960px) {
-}
-
-// Large Screens
-@media screen and (min-width: 960px) {
 }

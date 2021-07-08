@@ -22,6 +22,11 @@
     width: 40%;
   }
 
+  .line {
+    border: 1px solid rgba(211, 211, 211, 0.308);
+    width: 100%;
+  }
+
   .line-contact {
     width: 60%;
 
@@ -46,6 +51,11 @@
     .line-contact {
       display: none;
     }
+
+    .section-seperator {
+      width: 80vw;
+      margin-bottom: 4rem;
+    }
   }
 
   // Medium Screens
@@ -54,5 +64,8 @@
 
   // Large Screens
   @media screen and (min-width: 960px) {
+    .section-seperator {
+      width: 0;
+    }
   }
 }

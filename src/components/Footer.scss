@@ -1,5 +1,14 @@
 .footer {
+  // General Styles
   background-color: #33323d;
+
+  .footer-link-container {
+    margin-right: auto;
+
+    .footer-link {
+      margin-left: 1rem;
+    }
+  }
 
   .footer-link {
     font-size: 0.8rem;
@@ -10,7 +19,41 @@
     color: #eaeaeb !important;
   }
 
+  .footer-icons {
+    margin-right: 1rem;
+  }
+
+  #footer-nav {
+    padding: 2rem 0;
+    align-items: center;
+  }
+
+  // Small Screens
   @media only screen and (max-width: 600px) {
-    display: none;
+    .footer-link {
+      padding: 1rem 0;
+    }
+
+    .footer-link-container {
+      margin-right: 0;
+    }
+
+    #footer-nav {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+
+  // Medium Screens
+  @media screen and (min-width: 600px) and (max-width: 960px) {
+  }
+
+  // Large Screens
+  @media screen and (min-width: 960px) {
+    .footer-icons-container {
+      margin-left: auto;
+    }
   }
 }

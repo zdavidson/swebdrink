@@ -10,6 +10,9 @@ const Hero = () => {
           About Me
         </Button>
       </div>
+      <div className="section-seperator">
+        <hr className="line"></hr>
+      </div>
     </div>
   );
 };

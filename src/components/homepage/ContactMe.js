@@ -4,6 +4,9 @@ import Button from "react-bootstrap/Button";
 const ContactMe = () => {
   return (
     <div className="contact-me">
+      <div className="section-seperator">
+        <hr className="line"></hr>
+      </div>
       <h2>Interested in doing a project together?</h2>
       <div className="line-contact">
         <hr></hr>
