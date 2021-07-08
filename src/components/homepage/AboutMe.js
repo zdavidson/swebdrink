@@ -5,12 +5,12 @@ import Button from "react-bootstrap/Button";
 
 const AboutMe = () => {
   return (
-    <div id="about" className="about-me my-4 py-5 d-flex">
+    <div id="about" className="about-me">
       <Row>
-        <Col className="pr-5">
+        <Col id="about-image-col" className="">
           <img className="about-image" src="./profile.jpg" alt="profile" />
         </Col>
-        <Col className="text-column px-5 mx-5 d-flex flex-column justify-content-between">
+        <Col className="text-column">
           <Row>
             <div className="line"></div>
           </Row>

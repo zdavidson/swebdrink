@@ -1,13 +1,10 @@
 .contact-me {
-  h2 {
-    font-size: 2.5rem;
-    font-weight: 600;
-    width: 40%;
+  // General Styles
+  margin: 2.5rem 0;
+  padding: 2.5rem 0;
 
-    @media only screen and (max-width: 600px) {
-      width: 100%;
-    }
-  }
+  display: flex;
+  align-items: center;
 
   a {
     font-size: 0.8rem;
@@ -17,18 +14,45 @@
     padding: 1rem 2.5rem;
     font-weight: 600;
     text-transform: uppercase;
+  }
 
-    @media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    width: 40%;
+  }
+
+  .line-contact {
+    width: 60%;
+
+    padding: 0 2rem;
+    margin: 0 2rem;
+  }
+
+  // Small Screens
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    text-align: center;
+
+    a {
       width: 50%;
     }
+
+    h2 {
+      width: 100%;
+      padding-bottom: 2rem;
+    }
+
+    .line-contact {
+      display: none;
+    }
   }
-}
 
-.line-contact {
-  border: 1px solid white;
-  width: 60%;
+  // Medium Screens
+  @media screen and (min-width: 600px) and (max-width: 960px) {
+  }
 
-  @media only screen and (max-width: 600px) {
-    display: none;
+  // Large Screens
+  @media screen and (min-width: 960px) {
   }
 }

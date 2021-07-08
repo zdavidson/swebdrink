@@ -1,24 +1,36 @@
 .hero {
+  // General Styles
+  display: flex;
+
   background-image: url("../../images/image-homepage-hero.jpg");
-  height: 65vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-
   align-items: flex-end;
 
+  // Small Screens
   @media only screen and (max-width: 600px) {
-    display: none;
     background-image: none;
+    padding: 2rem;
+  }
+
+  // Medium Screens
+  @media screen and (min-width: 600px) and (max-width: 960px) {
+  }
+
+  // Large Screens
+  @media screen and (min-width: 960px) {
+    margin: 2rem 0;
+    height: 65vh;
   }
 }
 
 .text-container {
-  width: 40%;
+  // General Styles
+
   background-color: #fafafa;
 
   h1 {
-    font-size: 3rem;
     font-weight: 700;
   }
 
@@ -35,7 +47,45 @@
     padding: 1rem 3rem;
   }
 
+  // Small Screens
   @media only screen and (max-width: 600px) {
+    text-align: center;
     width: 100%;
+
+    #about-me-button {
+      margin-top: 2rem;
+    }
   }
+
+  // Medium Screens
+  @media screen and (min-width: 600px) and (max-width: 960px) {
+  }
+
+  // Large Screens
+  @media screen and (min-width: 960px) {
+    padding-top: 2.5rem;
+    padding-right: 2.5rem;
+
+    width: 40%;
+
+    h1 {
+      font-size: 3rem;
+      padding-bottom: 2.5rem;
+      padding-right: 1rem;
+    }
+  }
+}
+
+// General Styles
+
+// Small Screens
+@media screen and (max-width: 600px) {
+}
+
+// Medium Screens
+@media screen and (min-width: 600px) and (max-width: 960px) {
+}
+
+// Large Screens
+@media screen and (min-width: 960px) {
 }

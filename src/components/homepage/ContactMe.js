@@ -3,9 +3,9 @@ import Button from "react-bootstrap/Button";
 
 const ContactMe = () => {
   return (
-    <div className="contact-me my-5 py-5 d-flex align-items-center">
+    <div className="contact-me">
       <h2>Interested in doing a project together?</h2>
-      <div className="line-contact px-4 mx-4">
+      <div className="line-contact">
         <hr></hr>
       </div>
       <Button
