@@ -5,7 +5,7 @@ import Button from "react-bootstrap/Button";
 
 const AboutMe = () => {
   return (
-    <div className="about-me my-4 py-5 d-flex">
+    <div id="about" className="about-me my-4 py-5 d-flex">
       <Row>
         <Col className="pr-5">
           <img className="about-image" src="./profile.jpg" alt="profile" />

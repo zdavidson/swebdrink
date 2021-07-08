@@ -8,7 +8,9 @@ const Hero = () => {
         <h1 className="pb-5 pr-2">
           Hey, I'm Zoë Davidson and I love building beautiful websites
         </h1>
-        <Button variant="success">About Me</Button>
+        <Button id="about-me-button" variant="success" href="#about">
+          About Me
+        </Button>
       </div>
     </div>
   );
