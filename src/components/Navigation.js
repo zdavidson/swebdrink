@@ -9,7 +9,7 @@ const Navigation = () => {
         <img src="./logo.svg" alt="site-logo" />
       </NavBar.Brand>
       <Nav className="ml-auto">
-        <Nav.Link className="mr-4 header-link" href="#home">
+        <Nav.Link className="mr-4 header-link" href="/">
           Home
         </Nav.Link>
         <Nav.Link
