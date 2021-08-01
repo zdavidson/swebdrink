@@ -15,7 +15,6 @@ function App() {
         </header>
         <main>
           <Route exact path="/" component={HomeIndex} />
-
           <Route path="/portfolio" component={PortfolioIndex} />
         </main>
       </Container>
