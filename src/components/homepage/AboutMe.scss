@@ -32,6 +32,13 @@
     width: 100%;
   }
 
+  .no-style {
+    color: #747475;
+    font-size: 1rem;
+    padding: 0;
+    text-transform: none;
+  }
+
   .text-column {
     display: flex;
     flex-direction: column;
