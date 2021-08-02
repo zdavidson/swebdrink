@@ -6,12 +6,15 @@ const PlanetHub = () => {
   return (
     <div id="about" className="about-me">
       <Row>
-        <Col id="about-image-col" className="">
-          <img
-            className="about-image"
-            src="./planet-hub-screenshot.png"
-            alt="profile"
-          />
+        <Col className="mobile">
+          <a className="image-link" href="https://planet-hub.vercel.app">
+            <img
+              id="planet-hub-image"
+              className="about-image"
+              src="./planet-hub-screenshot-mobile-third.png"
+              alt="profile"
+            />
+          </a>
         </Col>
         <Col className="text-column">
           <Row>
@@ -22,10 +25,22 @@ const PlanetHub = () => {
             <h2>PlanetHub</h2>
           </Row>
           <Row>
-            <p>
-              This is a fully responsive e-commerce site that I built using
-              React. Additionally, I made use of React Bootrap, and SCSS for
-              more efficient component creation and cleaner code.
+            <p className="portfolio-item-description">
+              This is a fully responsive info site that I built using React. In
+              addition to React, I used React Bootrap for simplified component
+              creation, and SCSS for greater code structure.
+            </p>
+            <br className="desktop"></br>
+            <p className="desktop">
+              GitHub:{" "}
+              <span>
+                <a
+                  className="github-link"
+                  href="https://github.com/zdavidson/planet-hub"
+                >
+                  https://github.com/zdavidson/planet-hub
+                </a>
+              </span>
             </p>
           </Row>
           <Row>
@@ -39,6 +54,16 @@ const PlanetHub = () => {
           <Row>
             <div className="line end"></div>
           </Row>
+        </Col>
+        <Col className="desktop">
+          <a className="image-link" href="https://planet-hub.vercel.app">
+            <img
+              id="planet-hub-image"
+              className="about-image"
+              src="./planet-hub-screenshot-mobile-third.png"
+              alt="profile"
+            />
+          </a>
         </Col>
       </Row>
     </div>
