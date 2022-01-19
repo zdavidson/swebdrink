@@ -22,7 +22,13 @@ const Footer = () => {
               Contact
             </Nav.Link>
           </Nav>
-          <p id="copy-right">© 2022 SwebDrink ﻿Chamber of Commerce: 82450641</p>
+          <p className="footer-text">
+            Vederhaven 7<br></br> 2993 EB Barendrecht
+          </p>
+          <p id="copy-right" className="footer-text">
+            © 2022 SwebDrink <br></br> Chamber of Commerce: 82450641
+          </p>
+
           <Nav className="footer-icons-container">
             <Nav.Link
               className="footer-link footer-icons"
