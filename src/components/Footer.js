@@ -9,45 +9,35 @@ const Footer = () => {
       <Container>
         <NavBar id="footer-nav" className="">
           <NavBar.Brand href="#home">
-            <img
-              className="footer-link"
-              src="./logo-light.svg"
-              alt="site-logo"
-            />
+            <img className="footer-link" src="./logo.png" alt="site-logo" />
           </NavBar.Brand>
           <Nav className="footer-link-container">
             <Nav.Link className="footer-link" href="#home">
               Home
             </Nav.Link>
-            <Nav.Link
-              className="footer-link"
-              href="https://github.com/zdavidson"
-            >
-              Portfolio
+            <Nav.Link className="footer-link" href="/products">
+              Products
             </Nav.Link>
-            <Nav.Link
-              className="footer-link"
-              href="mailto:zoe.a.h.davidson@gmail.com"
-            >
-              Contact Me
+            <Nav.Link className="footer-link" href="mailto:info@swebdrink.nl">
+              Contact
             </Nav.Link>
           </Nav>
-
+          <p id="copy-right">© 2022 SwebDrink ﻿Chamber of Commerce: 82450641</p>
           <Nav className="footer-icons-container">
             <Nav.Link
               className="footer-link footer-icons"
-              href="https://github.com/zdavidson"
+              href="https://www.facebook.com/Swebdrink-105403548670213/?view_public_for=105403548670213"
             >
-              <img src="./github.svg" alt="github-icon" />
+              <img src="./facebook-logo.png" alt="github-icon" />
             </Nav.Link>
             {/* <Nav.Link className="mr-2 footer-link" href="#portfolio">
             <img src="./twitter.svg" alt="twitter-icon" />
           </Nav.Link> --- maybe Vimeo?*/}
             <Nav.Link
               className="footer-link"
-              href="https://www.linkedin.com/in/zo%C3%ABdavidson/"
+              href="https://www.instagram.com/swebdrink/"
             >
-              <img src="./linkedin.svg" alt="linkedin-icon" />
+              <img src="./instagram.png" alt="linkedin-icon" />
             </Nav.Link>
           </Nav>
         </NavBar>

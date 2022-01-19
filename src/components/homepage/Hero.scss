@@ -2,7 +2,7 @@
   // General Styles
   display: flex;
 
-  background-image: url("../../images/image-homepage-hero.jpg");
+  background-image: url("../../images/image-homepage-hero.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -35,6 +35,7 @@
   // Large Screens
   @media screen and (min-width: 960px) {
     margin: 2rem 0;
+    margin-bottom: 8rem;
     height: 65vh;
 
     .section-seperator {
@@ -46,9 +47,13 @@
 .text-container {
   // General Styles
 
-  background-color: #fafafa;
+  background-color: #ffffff;
 
   h1 {
+    font-weight: 700;
+  }
+
+  h2 {
     font-weight: 700;
   }
 
@@ -88,6 +93,12 @@
 
     h1 {
       font-size: 3rem;
+      padding-bottom: 1rem;
+      padding-right: 1rem;
+    }
+
+    h2 {
+      font-size: 2rem;
       padding-bottom: 2.5rem;
       padding-right: 1rem;
     }

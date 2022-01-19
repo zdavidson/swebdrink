@@ -5,9 +5,10 @@ const Hero = () => {
   return (
     <div className="hero">
       <div className="text-container">
-        <h1>Hey, I'm Zoë Davidson and I love building beautiful websites</h1>
+        <h1>SwebDrink</h1>
+        <h2>There's always room for memories!</h2>
         <Button id="about-me-button" variant="success" href="#about">
-          About Me
+          History
         </Button>
       </div>
       <div className="section-seperator">

@@ -7,15 +7,12 @@ const ContactMe = () => {
       <div className="section-seperator">
         <hr className="line"></hr>
       </div>
-      <h2>Interested in doing a project together?</h2>
+      <h2>Order your SwebDrink today!</h2>
       <div className="line-contact">
         <hr></hr>
       </div>
-      <Button
-        variant="outline-secondary"
-        href="mailto:zoe.a.h.davidson@gmail.com"
-      >
-        Contact Me
+      <Button variant="outline-secondary" href="mailto:info@swebdrink.nl">
+        Contact
       </Button>
     </div>
   );

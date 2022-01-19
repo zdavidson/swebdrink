@@ -11,48 +11,40 @@ const AboutMe = () => {
           <img className="about-image" src="./profile.jpg" alt="profile" />
         </Col>
         <Col className="text-column">
-          <Row>
+          {/* <Row>
             <div className="line"></div>
-          </Row>
+          </Row> */}
 
           <Row>
-            <h2>About Me</h2>
+            <h2>History</h2>
           </Row>
           <Row>
             <p>
-              I’m a software engineer looking for freelance work at a companies
-              that are looking to make a positive difference in the world. I
-              focus on writing accessible HTML, using modern CSS practices and
-              writing clean JavaScript. When it comes to front end technologies,
-              I'm well versed in React, but I can adapt to whatever tools are
-              required. As far as the back end goes, I have experience with
-              Node.js, Express, and PostgreSQL. I’m currently based in Toronto,
-              ON, but I’m happiest working remotely and have experience in
-              remote teams. When I’m not coding, you’ll find me taking photos
-              and travelling. I love art in all its forms, but particularly in
-              print or on film. I’d love for you to check out my work{" "}
-              <a className="no-style" href="/portfolio">
-                here
-              </a>
-              , or on{" "}
-              <a className="no-style" href="https://github.com/zdavidson">
-                {" "}
-                GitHub{" "}
-              </a>
-              .
+              Sidney William Eduard Bakboord or SWEB is the founder of this
+              delicious soft drink. It was produced at home according to our own
+              recipe and every sip is a delight. A beautiful reminder of his
+              recipe to this day. As a large family we were not well off. In
+              addition to his great cooking skills, he not only provided the
+              family with deliciously prepared meals, but also with delicious
+              "SWEB". Coming from a large family, we didn't always have enough
+              money. At the time, there was not always money for the well-known
+              soft drink brands to provide the whole family with this on a daily
+              basis. On occasions, such as a birthday, soft drinks were present,
+              but not in great numbers. Nothing was drunk as much and was as
+              tasty as a "home made" ice cold glass of SWEB. It didn't matter,
+              everyone was welcome and everyone drank SWEB. Friends,
+              acquaintances and relatives visited regularly. Even if it was just
+              to enjoy a delicious ice-cold glass of SWEB.
             </p>
           </Row>
           <Row>
-            <Button
-              variant="outline-secondary"
-              href="https://github.com/zdavidson"
-            >
-              Go To Portfolio
+            <Button variant="outline-secondary" href="/products">
+              Products
             </Button>
           </Row>
-          <Row>
+          {/* <Row>
             <div className="line end"></div>
-          </Row>
+          </Row> */}
         </Col>
       </Row>
     </div>

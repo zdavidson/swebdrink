@@ -5,24 +5,18 @@ import "./Navigation.scss";
 const Navigation = () => {
   return (
     <NavBar className="navigation">
-      <NavBar.Brand href="#home">
-        <img src="./logo.svg" alt="site-logo" />
+      <NavBar.Brand href="/">
+        <img src="./logo.png" alt="site-logo" />
       </NavBar.Brand>
       <Nav className="ml-auto">
         <Nav.Link className="mr-4 header-link" href="/">
           Home
         </Nav.Link>
-        <Nav.Link
-          className="mr-4 header-link"
-          href="https://github.com/zdavidson"
-        >
-          Portfolio
+        <Nav.Link className="mr-4 header-link" href="/products">
+          Products
         </Nav.Link>
-        <Nav.Link
-          className="header-link"
-          href="mailto:zoe.a.h.davidson@gmail.com"
-        >
-          Contact Me
+        <Nav.Link className="header-link" href="/contact">
+          Contact
         </Nav.Link>
       </Nav>
     </NavBar>
