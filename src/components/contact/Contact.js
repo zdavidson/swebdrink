@@ -13,7 +13,7 @@ const Contact = () => {
         </div>
         <div id="contact-button">
           <Button variant="outline-secondary" href="mailto:info@swebdrink.nl">
-            Email:
+            Email
           </Button>
           <Button
             variant="outline-secondary"
