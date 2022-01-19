@@ -22,7 +22,7 @@ const Audiophile = () => {
           </Row>
 
           <Row>
-            <h2>CoolPine</h2>
+            <h2>FunkyPunch</h2>
           </Row>
           <Row>
             <p className="portfolio-item-description">
