@@ -26,15 +26,12 @@ const AboutMe = () => {
               recipe to this day. As a large family we were not well off. In
               addition to his great cooking skills, he not only provided the
               family with deliciously prepared meals, but also with delicious
-              "SWEB". Coming from a large family, we didn't always have enough
-              money. At the time, there was not always money for the well-known
-              soft drink brands to provide the whole family with this on a daily
-              basis. On occasions, such as a birthday, soft drinks were present,
-              but not in great numbers. Nothing was drunk as much and was as
-              tasty as a "home made" ice cold glass of SWEB. It didn't matter,
-              everyone was welcome and everyone drank SWEB. Friends,
-              acquaintances and relatives visited regularly. Even if it was just
-              to enjoy a delicious ice-cold glass of SWEB.
+              "SWEB". On occasions, for example a birthday, several soft drinks
+              were provided, but not in great numbers. Nothing was drunk as much
+              and was as tasty as a "home made" ice cold glass of SWEB. It
+              didn't matter who, everyone was welcome and everyone drank SWEB.
+              Friends, acquaintances and relatives visited regularly. If only to
+              enjoy a delicious ice-cold glass of SWEB.
             </p>
           </Row>
           <Row>

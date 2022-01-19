@@ -2,12 +2,13 @@
   // General Styles
   display: flex;
 
-  background-image: url("../../images/image-homepage-hero-1.png");
+  background-image: url("../../images/image-homepage-hero-2.png");
   background-position: center;
   background-size: cover;
   background-size: 90%;
   background-repeat: no-repeat;
   align-items: flex-end;
+  justify-content: center;
 
   .line {
     border: 1px solid rgba(211, 211, 211, 0.308);
@@ -36,7 +37,7 @@
   // Large Screens
   @media screen and (min-width: 960px) {
     margin: 2rem 0;
-    margin-bottom: 8rem;
+    margin-bottom: 12rem;
     height: 65vh;
 
     .section-seperator {
@@ -48,8 +49,12 @@
 .text-container {
   // General Styles
 
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 1);
   border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: translateY(25%);
 
   h1 {
     font-weight: 700;
@@ -70,6 +75,7 @@
     text-transform: uppercase;
 
     padding: 1rem 3rem;
+    margin: 0 20rem;
   }
 
   // Small Screens
@@ -88,9 +94,9 @@
 
   // Large Screens
   @media screen and (min-width: 960px) {
-    padding: 2.5rem;
+    padding: 1rem;
 
-    width: 40%;
+    width: 50%;
 
     h1 {
       font-size: 3rem;
@@ -100,7 +106,7 @@
 
     h2 {
       font-size: 2rem;
-      padding-bottom: 2.5rem;
+      padding-bottom: 1rem;
       padding-right: 1rem;
     }
   }
