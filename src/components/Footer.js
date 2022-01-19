@@ -23,6 +23,9 @@ const Footer = () => {
             </Nav.Link>
           </Nav>
           <p className="footer-text">
+            06<strong> </strong> - <strong> </strong> 434 07 491<br></br>
+            <a href="mailto:info@swebdrink.nl">info@swebdrink.nl</a>
+            <br></br>
             Vederhaven 7<br></br> 2993 EB Barendrecht
           </p>
           <p id="copy-right" className="footer-text">
@@ -36,9 +39,13 @@ const Footer = () => {
             >
               <img src="./facebook-logo.png" alt="github-icon" />
             </Nav.Link>
-            {/* <Nav.Link className="mr-2 footer-link" href="#portfolio">
-            <img src="./twitter.svg" alt="twitter-icon" />
-          </Nav.Link> --- maybe Vimeo?*/}
+            <Nav.Link
+              className="mr-2 footer-link"
+              href="//api.whatsapp.com/send?phone=310643407491"
+              target="_blank"
+            >
+              <img src="./whatsapp.png" alt="whasapp-icon" />
+            </Nav.Link>{" "}
             <Nav.Link
               className="footer-link"
               href="https://www.instagram.com/swebdrink/"

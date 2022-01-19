@@ -26,7 +26,7 @@ const Audiophile = () => {
           </Row>
           <Row>
             <p className="portfolio-item-description">
-              A delicious mix of strawberry and cherry flavors.
+              Thirst-quenching pineapple with refreshing orange.
             </p>
           </Row>
           <Button variant="outline-secondary" href="mailto:info@swebdrink.nl">

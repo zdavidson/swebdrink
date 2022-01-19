@@ -6,6 +6,12 @@
   display: flex;
   align-items: center;
 
+  h2 {
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+
   a {
     font-size: 0.8rem;
     height: 10%;
@@ -32,6 +38,20 @@
 
     padding: 0 2rem;
     margin: 0 2rem;
+  }
+
+  #contact-button {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      margin: 0.5rem;
+      width: 20rem;
+    }
+
+    img {
+      margin-left: 0.5rem;
+    }
   }
 
   // Small Screens
@@ -71,7 +91,6 @@
 }
 
 #contact-page {
-
   // Small Screens
   @media screen and (max-width: 600px) {
     .line-contact {
@@ -79,7 +98,7 @@
     }
   }
 
-    // Medium Screens
+  // Medium Screens
   @media screen and (min-width: 600px) and (max-width: 960px) {
     margin: 4rem 0;
   }
@@ -91,4 +110,15 @@
     }
     margin: 10rem 0;
   }
-  }
+}
+
+#contact-page-last {
+  margin-top: 6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#email-contact-page {
+  padding-top: 1rem;
+}
