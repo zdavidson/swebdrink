@@ -11,7 +11,7 @@ const Audiophile = () => {
             <img
               id="audiophile-image"
               className="about-image"
-              src="./third-item.jpeg"
+              src="./yellow.jpeg"
               alt="profile"
             />
           </a>

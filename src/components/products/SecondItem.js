@@ -7,12 +7,13 @@ const Audiophile = () => {
     <div id="about" className="about-me">
       <Row>
         <Col id="about-image-col" className="">
-          <a className="image-link" href="https://audiophile-seven.vercel.app">
+          <a className="image-link" href="swebdrink.nl">
             <img
               id="audiophile-image"
               className="about-image"
-              src="./planet-hub-screenshot-mobile-third.jpeg"
+              src="./green.jpeg"
               alt="profile"
+              style={{ width: "640px" }}
             />
           </a>
         </Col>
